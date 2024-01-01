@@ -1,0 +1,12 @@
+Normalizasyon:
+Amaç: Değerleri belirli bir aralığa sıkıştırmak.
+Yapılan İşlem: Veriler, genellikle 0 ile 1 arasına ölçeklenir.
+Formül => normalized value = (original value − min value) / (max value − min value)
+
+Standardizasyon:
+Amaç: Değerleri ortalama etrafında düzenlemek ve standart sapmaya göre ölçeklendirmek.
+Yapılan İşlem: Veriler, genellikle ortalama değeri 0, standart sapması ise 1 olacak şekilde dönüştürülür.
+Z-Score normalizasyon Formülü => z =  (x - μ) / σ
+x: orijinal değer
+μ: ortalama
+σ: standart sapma
